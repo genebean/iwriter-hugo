@@ -15,8 +15,11 @@ navbar_fixed = true
 description = "This is meta description"
 author = "Statichunt"
 image = "images/logo.png"                # this image will be used as fallback if a page has no image of its own
+# contact form works with https://formspree.io and Netlify
+# use Netlify's contact form functionality
+netlify = true # set to false if using formspree.io
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "thank-you" 
 # search
 search = true
 # Sidebar

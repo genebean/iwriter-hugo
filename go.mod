@@ -1,4 +1,4 @@
-module github.com/statichunt/iwriter-hugo.git
+module github.com/genebean/iwriter-hugo
 
 go 1.19
 

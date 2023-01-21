@@ -20,7 +20,13 @@ hasCJKLanguage = true # If hasCJKLanguage true, auto-detect Chinese/Japanese/Kor
 [module]
 [module.hugoVersion]
 extended = true
-min = "0.88.1"
+min = "0.106.0"
+
+# Import the theme as a module per
+# https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme
+[[module.imports]]
+path = 'github.com/statichunt/iwriter-hugo.git'
+
 
 ############################# Outputs ##############################
 [outputs]
